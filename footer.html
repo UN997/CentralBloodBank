@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+        footer { background-color:#D3D3D3; min-height:350px; font-family: 'Open Sans', sans-serif; }
+        .footerleft { margin-top:50px; padding:0 36px; }
+        .logofooter { margin-bottom:10px; font-size:25px; color:#000; font-weight:700;}
+
+        .footerleft p { color:#000; font-size:12px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+        .footerleft p i { width:20px; color:#999;}
+
+
+        .paddingtop-bottom {  margin-top:50px;}
+        .footer-ul { list-style-type:none;  padding-left:0px; margin-left:2px;}
+        .footer-ul li { line-height:29px; font-size:12px;}
+        .footer-ul li a { color:#000; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+        .footer-ul i { margin-right:10px;}
+        .footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
+
+        .social:hover {
+             -webkit-transform: scale(1.1);
+             -moz-transform: scale(1.1);
+             -o-transform: scale(1.1);
+         }
+         
+         
+
+         
+         .icon-ul { list-style-type:none !important; margin:0px; padding:0px;}
+         .icon-ul li { line-height:75px; width:100%; float:left;}
+         .icon { float:left; margin-right:5px;}
+         
+         
+         .copyright { min-height:40px; background-color:#000000;}
+         .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;}
+         .heading7 { font-size:21px; font-weight:700; color:#000; margin-bottom:22px;}
+         .bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
+         .bottom_ul li { float:left; line-height:40px;}
+         .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+         .bottom_ul li a { color:#FFF;  font-size:12px;}
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $('#terms_conditions').click(function(){
+            $('#terms_modal').modal('show');
+            });
+
+        $('#about_us').click(function(){
+            $('#about_us_modal').modal('show');
+            });
+
+         $('#contact_us').click(function(){
+            $('#contact_us_modal').modal('show');
+            });
+    });
+    </script>
+
+</head>
+<body>
+<!--footer start from here-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 footerleft ">
+            <div class="logofooter"> Central Blood Bank Pvt. Ltd.</div>
+                <p>Central Blood Bank is a initiative taken by Nair brothers to ease the availability of blood to any individual.</p>
+                <p><i class="fa fa-map-pin"></i>SIES Graduate School Of Technology. Sector 18, Navi Mumbai, Mumbai - 400076</p>
+                <p><i class="fa fa-phone"></i>Phone (India) : +91 8291 0368 12</p>
+                <p><i class="fa fa-envelope"></i> E-mail : acentralbloodbank@gmail.com</p>
+            
+          </div>
+          <div class="col-md-2 col-sm-6 paddingtop-bottom">
+            <h6 class="heading7">GENERAL LINKS</h6>
+            <ul class="footer-ul">
+              <li><a href="privacy_policy.html"> Privacy Policy</a></li>
+              <li><a href="#terms1" id="terms_conditions"> Terms & Conditions</a></li>
+              <li><a href="disclaimer.html" id="disclaimer">Disclaimer</a></li>
+
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-sm-6 paddingtop-bottom">
+            <h6 class="heading7">EVENT REGISTRATION!</h6>
+              <ul class="footer-ul">
+                <li><a href="https://www.gmail.com">To Register Your Event, email us at <br>acentralbloodbank@gmail.com</a></li>
+              </ul>
+          </div>
+          <!--
+          <div class="col-md-3 col-sm-6 paddingtop-bottom">
+          
+            <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" style="margin-bottom:15px;" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+              <div class="fb-xfbml-parse-ignore">
+                <h6 class="heading7">SOCIAL MEDIA LINKS</h6>
+                <blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook" style="color: black;"><i class="fa fa-facebook"></i></a></blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      -->
+      </div>
+    </footer>
+
+    <!--footer start from here-->
+
+    <div class="copyright">
+      <div class="container">
+        <div class="col-md-6">
+          <p>© 2017, Central Blood Bank, All Rights Reserved</p>
+        </div>
+        <div class="col-md-6">
+          <ul class="bottom_ul">
+            <li><a href="#">centralbloodbank.com</a></li>
+            <li><a href="#aboutus1" id="about_us">About us</a></li>
+            <li><a href="#contactus1" id="contact_us">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Terms and conditions modal -->
+
+    <div id="terms1"></div>
+        <div class="modal fade" id="terms_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Terms and Conditions</h4>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li>People registering on this site must understand that the information provided by them on the registration page is available to a person seeking for a particular blood group.</li>
+
+                            <li>We do not sell contact details of potential donors to any third party or use it in any way for commercial gains.</li>
+
+                            <li>We do not arrange blood. We only provide relevant information about potential donors to those in need of blood.</li>
+
+                            <li>We do not guarantee that a potential donor will agree to donate blood whenever called upon to do so. It is entirely at the discretion of the individual whether or not to donate blood.</li>
+
+                            <li>We do not claim that potential donors are free from any disease, ailment, or bodily conditions preventing them from donating blood at the time when they are contacted for blood donation. Onus is completely on the individual looking for blood to verify these details from the donor.</li>
+
+                            <li>We urge you not to make false registrations if you do not seriously wish to donate blood. It is a matter of life and death for those in need of blood in an emergency or otherwise.</li>
+
+                            <li>We reserve right to inactivate member at any given time in case found wrong information given or misuse of service</li>
+
+
+                        </ul>
+                    </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About us modal -->
+        <div id="aboutus1"></div>
+        <div class="modal fade" id="about_us_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="myModalLabel">About Us</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Central Blood Bank is a product developed by Nair Brothers while they were studying at SIES Graduate School OF Technology. 
+                        </p>
+                        <br>
+
+                        <p>
+                            'Blood' is recognized as the most precious element that sustains life. It saves innumerable lives across the world in a variety of conditions. Once in every 2 seconds, someone, somewhere is desperately in need of blood. More than 29 million units of blood components are transfused every year. The need for blood is great - on any given day, approximately 39,000 units of Red Blood Cells are needed. Each year, we could meet only up to 1% (approx) of our nation’s demand for blood transfusion.
+                        </p>
+                        <br>
+
+                        <p>
+                            Despite the increase in the number of donors, blood remains in short supply during emergencies, mainly attributed to the lack of information and accessibility. We positively believe this tool can overcome most of these challenges by effectively connecting the blood donors with the blood recipients.
+                        </p>
+
+                    </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Us modal -->
+
+        <div id="contactus1"></div>
+        <div class="modal fade" id="contact_us_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Contact Address:<br>
+                            SIES Graduate school Of Technology,<br>
+                            Nerul, Sector 18,<br>
+                            Mumbai - 400076.
+                        </p>
+                        <br>
+
+
+                        <p>
+                            Call us at:
+                            Phone Number: 0251 2830410
+                            Mobile Number: +91 7738597790 
+                        </p>
+                        <br>
+
+                        <p>
+                            For any querires/feedback, mail us at: admin_bloodbank@gmail.com
+                        </p>
+
+                    </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+
+</body>
+</html>
